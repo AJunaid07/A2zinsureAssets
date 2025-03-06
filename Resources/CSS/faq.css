@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+img {
+  display: block;
+}
+
+.faq-section {
+  padding: 10px 7%;
+}
+
+.faq-section .footer-heading {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.faq-section .footer-heading h3 {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #2b69da;
+  color: #fff;
+  width: fit-content;
+  padding: 4px 30px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.faq-section .footer-heading h1 {
+  line-height: 1;
+  font-weight: 400;
+  font-size: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #2b69da;
+}
+
+.faq-section .footer-heading h1 span {
+  color: #ccc;
+}
+
+.fsq-box {
+  margin-top: 30px;
+}
+
+.fsq-box .faqs {
+  margin: 20px 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
+.fsq-box .faqs .question {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.fsq-box .faqs .question .icon {
+  background-color: #2b69da;
+  cursor: pointer;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fsq-box .faqs .question span {
+  font-size: 22px;
+}
+
+.fsq-box .faqs .question h4 {
+  font-family: "Open sans";
+  font-size: 18px;
+  color: #2b69da;
+  width: 80%;
+  font-weight: 600;
+}
+
+.fsq-box .faqs .answers {
+  margin-top: 20px;
+  display: none;
+}
+
+.fsq-box .faqs .answers p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 786px) {
+  .faq-section {
+    padding: 20px 5%;
+  }
+
+  .fsq-box .faqs .question h4 {
+    font-size: 16px;
+  }
+
+  .fsq-box .faqs .answers p {
+    font-size: 14px;
+  }
+}

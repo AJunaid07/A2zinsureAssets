@@ -1,0 +1,33 @@
+.section1{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding: 20px 7%;
+    color: #fff;
+}
+.section1_container{
+    background: linear-gradient(to bottom right, #000, transparent), url('./../../Assets/Images/term_article.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.section2{
+    padding: 20px 7%;
+    font-family: 'Poppins';
+    padding-bottom: 10%;
+}
+
+/* ---------------------------------------------------------------------------------- */
+@media screen and (max-width: 600px) {
+    .section1{
+        padding: 5%;
+        font-size: 22px;
+    }
+    .section2{
+        padding: 5%;
+        margin-bottom: 40%;
+    }
+}

@@ -1,0 +1,126 @@
+.section1 {
+  padding: 20px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  font-family: "Open Sans", sans-;
+  font-size: 30px;
+  color: #fff;
+}
+
+.section1_container {
+  background: linear-gradient(to bottom right, #000, transparent),
+    url("./../../Assets/Images/healthinsuranceImage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section2 {
+  padding: 20px 7%;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+
+
+.section2 h2 {
+  color: #2b69da;
+}
+
+.accordion {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section3 {
+  padding: 20px 7%;
+  padding-bottom: 10%;
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.section3_boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 15px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.dos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section3 h2 {
+  color: #2b69da;
+  font-size: 30px;
+}
+
+.accordion p {
+  color: #2b69da;
+  font-weight: 500;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 600px) {
+  .section1 {
+    padding: 5%;
+  }
+  
+  .section2 {
+    margin-bottom: 40%;
+  }
+
+  .section1 h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .section2 {
+    padding: 5%;
+  }
+
+  .section3 {
+    padding: 5%;
+    margin-bottom: 40%;
+  }
+
+  .section3_boxes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section3 h2 {
+    color: #2b69da;
+    font-size: 24px;
+  }
+}

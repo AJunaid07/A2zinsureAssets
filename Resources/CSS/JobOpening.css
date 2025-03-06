@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+  scroll-behavior: smooth;
+}
+
+#job-opening {
+  width: 100%;
+}
+
+#job-opening .section-1 {
+  height: 350px;
+  width: 100%;
+}
+
+#job-opening .section-1 .banner {
+  width: 100%;
+  height: 100%;
+}
+
+#job-opening .section-1 .banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#job-opening .section-2 {
+  padding: 40px 7%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#job-opening .section-2 .left {
+  width: 60%;
+}
+
+#job-opening .section-2 .left .title {
+  margin: 15px 0;
+}
+
+#job-opening .section-2 .left .title h2 {
+  font-size: 28px;
+  color: #4c474c;
+  text-align: left;
+}
+
+#job-opening .section-2 .left .title .line {
+  width: 150px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #2b69da;
+}
+
+#job-opening .section-2 .left .dexcp p {
+  line-height: 1.4;
+  margin: 10px 0;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+#job-opening .section-2 .right {
+  width: 40%;
+}
+
+#job-opening .section-2 .right img {
+  width: 100%;
+}
+
+#job-opening .section-3 {
+  padding: 40px 7%;
+  background-color: #f8f9fa;
+}
+
+#job-opening .section-3 .title {
+  margin-bottom: 40px;
+}
+
+#job-opening .section-3 .title h2 {
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+#job-opening .section-3 .title .line {
+  width: 100px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #2b69da;
+}
+
+#job-opening .section-3 .apply-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#job-opening .section-3 .apply-cards .cards {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+#job-opening .section-3 .apply-cards .cards:hover {
+  transform: translateY(-4px);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+#job-opening .section-3 .apply-cards .cards .card-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#job-opening .section-3 .apply-cards .cards .card-title i {
+  font-size: 42px;
+  margin-right: 4px;
+}
+
+#job-opening .section-3 .apply-cards .cards .card-title h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2b69da;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+#job-opening .section-3 .apply-cards .cards .card-title p {
+  font-size: 14px;
+  line-height: 1;
+  color: #717b9e;
+}
+
+#job-opening .section-3 .apply-cards .cards .category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#job-opening .section-3 .apply-cards .cards .category span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+  gap: 8px;
+  border: 1px solid #e7e7f1;
+  padding: 6px 10px;
+  border-radius: 50px;
+  color: #474d6a;
+}
+
+#job-opening .section-3 .apply-cards .cards .category span i {
+  font-size: 16px;
+}
+
+#job-opening .section-3 .apply-cards .cards .job-description p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #474d6a;
+  margin-top: 10px;
+}
+
+#job-opening .section-3 .apply-cards .cards .view {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+#job-opening .section-3 .apply-cards .cards .view a {
+  padding: 8px 20px;
+  background-color: #2b68dae4;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#job-opening .section-3 .apply-cards .cards .view a:hover {
+  background-color: #2b69da;
+  color: #fff;
+}
+
+#job-opening .section-4 {
+  padding: 40px 7%;
+  margin-bottom: 10%;
+  background-color: #dbdbdb;
+}
+
+#job-opening .section-4 .beaware .beaware-title {
+  margin-bottom: 20px;
+}
+
+#job-opening .section-4 .beaware .beaware-title .line {
+  width: 100px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #2b69da;
+}
+
+#job-opening .section-4 .beaware .beaware-title h2 {
+  font-size: 28px;
+  color: #4c474c;
+  text-align: left;
+}
+
+#job-opening .section-4 .beaware .desc h3 {
+  margin-bottom: 10px;
+  font-weight: 550;
+  font-size: 19px;
+  opacity: 0.8;
+}
+
+#job-opening .section-4 .beaware .desc ul li {
+  line-height: 1.2;
+  margin: 10px 0;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 786px) {
+  #job-opening .section-1 {
+    height: 250px;
+  }
+
+  #job-opening .section-2 {
+    flex-direction: column;
+    padding: 20px 5%;
+  }
+
+  #job-opening .section-2 .left,
+  #job-opening .section-2 .right {
+    width: 100%;
+  }
+
+  #job-opening .section-3 .apply-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  #job-opening .section-2 .left .title h2,
+  #job-opening .section-3 .title h2,
+  #job-opening .section-4 .beaware .beaware-title h2 {
+    line-height: 1;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  #job-opening .section-3,
+  #job-opening .section-4 {
+    padding: 20px 5%;
+  }
+
+  
+  #job-opening .section-4 {
+    margin-bottom: 150px;
+  }
+
+  #job-opening .section-3 .apply-cards .cards .category {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

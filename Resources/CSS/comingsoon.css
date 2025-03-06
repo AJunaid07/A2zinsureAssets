@@ -1,0 +1,131 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* =================================Header===================================================== */
+/* header {
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 7%;
+    border: none;
+    z-index: 999;
+    border-bottom: 2px solid #70ea04;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.list_items {
+    list-style-type: none;
+}
+
+.list_items a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.list_items a:hover {
+    color: #2b69da;
+    cursor: pointer;
+    border-bottom: 3px solid #2b69da;
+    padding-bottom: 3px;
+}
+
+.btn button {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn button:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn button:focus {
+    outline: none;
+}
+
+.btn button {
+    background-image: linear-gradient(to right,
+            #2b69da,
+            hsl(212, 100%, 57%),
+            #50a1fe,
+            #2b69da);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 5px, rgba(0, 0, 0, 0.23) 0px 2px 2px;
+} */
+
+/* ---------------------------------------------- Section1 ------------------------------------------------------------------- */
+.section1 h2 {
+    font-family: "Secular One", sans-serif;
+    font-size: 90px;
+    background: linear-gradient(to right, #49ff4c, #115dc9,#1d77ff, #27ff3c);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+.section1 img{
+    width: 250px;
+}
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to right top, #000000, transparent), url('./../../Assets/Images/coming.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact{
+    background-color: #fff;
+    font-family: 'Poppins';
+    color: #2b69da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    gap: 10px;
+}
+.contact h3{
+    align-self: center;
+}
+.contact p:last-child{
+    margin-top: -5px;
+}

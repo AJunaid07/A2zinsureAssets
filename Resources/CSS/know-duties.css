@@ -1,0 +1,141 @@
+/* ------------------------------------------------ Section 1 ---------------------------------------------------------- */
+.section1 {
+  display: flex;
+  padding: 20px 7%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section1 h2 {
+  font-size: 40px;
+  font-family: "Open Sans";
+  color: #2b69da;
+}
+
+.section1 p {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.line {
+  width: 300px;
+  height: 4px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #2b69da, #55ff00);
+}
+
+/* ============================================================== Section 2 ========================================================== */
+.section2 {
+  padding: 20px 7%;
+  display: flex;
+  align-items: center;
+}
+
+.left_section2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right_section2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_section2 img {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left_section2 h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #2b69da;
+  font-size: 40px;
+}
+
+.left_section2 h3 {
+  font-family: "Poppins";
+  font-size: 28px;
+}
+
+.left_section2 .box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Poppins";
+}
+
+/* ------------------------------------------------------ Section 3 -------------------------------------------------------------------- */
+.section3 {
+  padding: 20px 7%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section3 h3 {
+  font-family: "Poppins";
+  font-size: 28px;
+}
+
+.section3 .box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Poppins";
+}
+
+.section3 .box ul li {
+  margin-left: 12px;
+}
+
+.section3 h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #2b69da;
+  font-size: 40px;
+}
+
+/* ============================================== Responsive ============================================================ */
+@media screen and (max-width: 600px) {
+  .section1 {
+    padding: 5%;
+    align-items: flex-start;
+  }
+  .section1 h2 {
+    font-size: 30px;
+  }
+  .section2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 5%;
+  }
+  .left_section2 {
+    width: 100%;
+  }
+  .right_section2 {
+    width: 100%;
+  }
+  .right_section2 img {
+    width: 100%;
+  }
+  .section2 h2,
+  .section3 h2 {
+    font-size: 30px;
+  }
+
+  .section2 h3,
+  .section3 h3 {
+    font-size: 24px;
+  }
+
+  .section3 {
+    margin-bottom: 40%;
+  }
+}

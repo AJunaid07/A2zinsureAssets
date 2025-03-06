@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+img {
+  display: block;
+}
+
+.feedback-box {
+  background-color: #2b69da;
+  color: #fff;
+}
+
+.feedback-box .bg .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.feedback-box .bg .left h3 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.feedback-box .bg .left p {
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.feedback-box .bg .left p:nth-child(3) {
+  font-style: italic;
+}
+
+.feedback-box .bg .left .button {
+  display: flex;
+  justify-content: start;
+}
+
+.feedback-box .bg .left .button a {
+  backdrop-filter: blur(4px);
+  padding: 20px 40px;
+  border-radius: 4px;
+  border: 2px solid #9380f3;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  gap: 40px;
+  background-color: #6f56e5;
+}
+
+.feedback-box .bg .left .button a i {
+  font-size: 22px;
+}
+
+.feedback-box .bg {
+  padding: 50px 7%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.feedback-box .bg .right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feedback-box .bg .input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.feedback-box .bg .input select {
+  padding: 10px;
+  border: 1px solid #eee;
+  outline: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.feedback-box .bg .input label {
+  font-size: 15px;
+}
+
+.feedback-box .bg .col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feedback-box .bg .input select option {
+  font-weight: 500;
+}
+
+.feedback-box .bg .input input,
+.feedback-box .bg .input textarea {
+  padding: 10px;
+  border: 1px solid #eee;
+  outline: none;
+  border-radius: 4px;
+}
+
+.feedback-box .bg .input input::placeholder,
+.feedback-box .bg .input textarea::placeholder {
+  font-weight: 500;
+}
+
+.feedback-box .bg .button {
+  display: flex;
+  justify-content: end;
+  margin-top: 0px;
+}
+
+.feedback-box .bg .button button {
+  padding: 10px 70px;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #fff;
+  color: #2b69da;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 786px) {
+  .feedback-box .bg {
+    padding: 10px 5%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feedback-box .bg .left .button a {
+    padding: 10px;
+    font-size: 14px;
+    margin: 20px 0;
+  }
+
+  .feedback-box .bg input,
+  .feedback-box .bg .button button {
+    width: 100%;
+  }
+
+  .feedback-box .bg .input {
+    width: 100%;
+  }
+
+  .feedback-box .bg .col {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}

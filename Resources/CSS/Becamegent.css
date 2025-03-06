@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+#became-agent {
+  position: relative;
+}
+
+.became-agent {
+  padding: 20px 7%;
+}
+
+.became-agent h1 {
+  margin: 20px 0;
+  font-size: 40px;
+  color: #2b69da;
+}
+
+.became-agent ul li {
+  margin: 10px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.became-agent ul li i {
+  font-size: 24px;
+  color: #2b69da;
+}
+
+.became-agent p {
+  margin-top: 40px;
+}
+
+.became-agent p strong {
+  color: #2b69da;
+  font-weight: 550;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.features {
+  margin-top: 80px;
+}
+
+.features h2 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 40px;
+  color: #2b69da;
+}
+
+.features .box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.features img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.features .box .boxes {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features .box .boxes span {
+  font-weight: 500;
+  line-height: 1.1;
+  opacity: 0.8;
+}
+
+.edidform-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 90;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.edidform-box .m-box {
+  width: 70%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.edidform-box .m-box #cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 42px;
+  color: red;
+}
+
+.edidform-box .m-box h1 {
+  text-align: center;
+  color: #2b69da;
+  text-decoration: underline;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.edidform-box .m-box .form-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.edidform-box .m-box .form-box input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  width: 100% !important;
+  height: 100%;
+  font-size: 14px !important;
+  outline: none;
+}
+
+.edidform-box .m-box .form-box .input-boxx {
+  position: relative;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edidform-box .m-box .form-box .input-boxx label {
+  position: absolute;
+  top: -12px;
+  background-color: #fff;
+  left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 8px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.edidform-box .list {
+  display: flex;
+  gap: 10px;
+}
+
+.edidform-box .list .input-boxx {
+  border: 1px solid #eee;
+}
+
+.edidform-box .m-box .form-box input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.edidform-box .m-box .button {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.edidform-box .m-box .button button {
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #2b69da;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edidform-box .m-box .button button:nth-child(1) {
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.sucess-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 90;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.sucess-message .done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px 50px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.sucess-message .done img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.sucess-message .done .butn {
+  background-color: #2b69da;
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 2px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+  .became-agent {
+    padding: 10px 5%;
+  }
+
+  .features .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .edidform-box .m-box {
+    width: 95%;
+    height: 80%;
+    padding: 20px 10px;
+    overflow: scroll;
+  }
+  .edidform-box .m-box .form-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .edidform-box .m-box h1,
+  .became-agent h1,
+  .features h2 {
+    line-height: 1;
+    font-size: 28px;
+  }
+}

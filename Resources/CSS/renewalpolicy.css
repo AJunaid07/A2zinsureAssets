@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+img {
+  display: block;
+}
+
+.renewal-page .box {
+  padding: 50px 7%;
+}
+
+.renewal-page .box h1 {
+  color: #2b69da;
+  font-size: 40px;
+}
+
+.renewal-page .inputt {
+  position: relative;
+  border: 2px solid #eee;
+  margin: 10px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.renewal-page ul {
+  margin-top: 40px;
+}
+
+
+.renewal-page ul li {
+  font-size: 16px;
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+
+
+.renewal-page ul li i {
+  color: #2b69da;
+  font-size: 22px;
+}
+
+.renewal-page ul li p {
+  opacity: 0.8;
+}
+
+.renewal-page .inputt input,
+.renewal-page .inputt select {
+  width: 100% !important;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.renewal-page .inputt select {}
+
+.renewal-page .inputt input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.renewal-page .inputt span {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.renewal-page .inputt .upoload {
+  opacity: 0;
+}
+
+.renewal-page .inputt i {
+  position: absolute;
+  right: 30px;
+  top: 2px;
+  font-size: 32px;
+}
+
+.grid-boxx {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: #eee;
+}
+
+.grid-boxx .left {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.grid-boxx .left button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  background-color: #2b69da;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.grid-boxx .right {
+  background-color: #2b69da;
+  color: #fff;
+  padding: 20px;
+}
+
+.grid-boxx .right i {
+  color: #fff;
+}
+
+.grid-boxx .right ul {
+  margin-top: 0px;
+}
+
+.grid-boxx .right h2 {
+  font-weight: 600;
+  /* color: #2b69da; */
+  margin-bottom: 10px;
+}
+
+.grid-boxx .right ul li {
+  margin: 10px 0;
+  font-weight: 500;
+  align-items: start;
+}
+
+.grid-boxx .right ul li p {
+  line-height: 1;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.grid-boxx .right .contactt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+
+.grid-boxx .right .contactt a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid-boxx .right .contactt a i {
+  font-size: 32px;
+}
+
+.renewal-page .support-box {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.renewal-page .support-box h2 {
+  margin-bottom: 50px;
+  color: #2b69da;
+  font-size: 40px;
+}
+
+.renewal-page .support-box .contactt {
+  display: flex;
+  gap: 20px;
+}
+
+.renewal-page .support-box .contactt a {
+  border: 2px solid #eee;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  padding: 50px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.renewal-page .support-box .contactt a i {
+  font-size: 40px;
+}
+
+.renewal-page .support-box .contactt a span {
+  color: #000;
+  font-weight: 500;
+}
+
+.renewal-page .support-box .contactt a:hover {
+  transform: translateY(-5px);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .renewal-page .box {
+    padding: 20px 5%;
+  }
+
+  .renewal-page .box h1,
+  .renewal-page .support-box h2 {
+    line-height: 1;
+    font-size: 28px;
+  }
+
+  .grid-boxx {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .renewal-page .support-box {
+    margin-top: 40px;
+  }
+
+  .renewal-page .support-box .contactt {
+    flex-direction: column;
+  }
+}

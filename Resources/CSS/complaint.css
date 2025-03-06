@@ -1,0 +1,68 @@
+.section1_container{
+    background: linear-gradient(to right bottom, #000, transparent), url('./../../Assets/Images/insurance.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.section1{
+    height: 40vh;
+    padding: 3% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+/* --------------------------------- Section 2 ------------------------------------------ */
+.section2{
+    padding: 3% 7%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Poppins';
+}
+
+.section2 h2{
+    font-size: 30px;
+    color: #2b69da;
+    font-family: 'Open Sans', sans-ser;
+}
+
+.section2 p{
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #000;
+}
+
+.box ul li{
+    list-style-type: none;
+}
+
+.box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 2%;
+}
+
+
+/* ======================================= Responsive =============================================== */
+@media screen and (max-width: 600px) {
+    .section1{
+        height: 30vh;;
+    }
+    .section1 h2{
+        font-size: 30px;
+    }
+
+    .section2{
+        padding: 5%;
+        margin-bottom: 45%;
+    }
+    .section2 h2{
+        font-size: 26px;
+    }
+}

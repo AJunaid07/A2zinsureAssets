@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+#apply-job {
+  padding: 40px 7%;
+}
+
+#apply-job .research-box {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#apply-job .research-box .job-title {
+  margin-bottom: 20px;
+}
+
+#apply-job .research-box .job-title h3 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #2b69da;
+}
+
+#apply-job .research-box .job-title p {
+  font-weight: 550;
+  opacity: 0.7;
+  line-height: 2;
+  background-color: #e0eef9;
+  color: #0855e3;
+  width: fit-content;
+  padding: 4px 20px;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+#apply-job .research-box .job-location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#apply-job .research-box .job-location i {
+  font-size: 20px;
+}
+
+#apply-job .research-box .job-location p {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+#apply-job .research-box .job-post {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+#apply-job .research-box .job-post span {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+#apply-job .research-box .job-post i {
+  font-size: 18px;
+}
+
+#apply-job .research-box .job-description {
+  margin-bottom: 20px;
+}
+
+#apply-job .research-box .job-description p {
+  font-size: 16px;
+  line-height: 1.2;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+#apply-job .research-box .job-description h4 {
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#apply-job .research-box .job-description ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#apply-job .research-box .job-description ul li {
+  list-style-type: disc;
+  margin: 10px 0;
+}
+
+#apply-job .research-box .ctc {
+  margin: 20px 0;
+}
+
+#apply-job .research-box .ctc h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2b69da;
+}
+
+#apply-job .research-box .ctc .ca-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#apply-job .research-box .ctc .ca-box .box {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+#apply-job .research-box .ctc .ca-box .box i {
+  font-size: 30px;
+}
+
+#apply-job .research-box .ctc .ca-box .box h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+}
+
+#apply-job .research-box .ctc .ca-box .box p {
+  font-size: 18px;
+  font-weight: 550;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+#apply-job .research-box .apply-online {
+  margin-top: 35px;
+}
+
+#apply-job .research-box .apply-online h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2b69da;
+}
+
+#apply-job .research-box .apply-online .aplly-box {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#apply-job .research-box .apply-online .aplly-box .attech {
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+#apply-job .rr {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#apply-job .rr p {
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#apply-job .research-box .apply-online .aplly-box .input {
+  border: 1px solid #eee;
+  width: 80%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+
+#apply-job .research-box .apply-online .aplly-box .input input {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+
+#apply-job .research-box .apply-online .aplly-box .input span {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  padding: 4px 18px;
+  background: #2b69da;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 14px;
+  z-index: -1;
+}
+
+#apply-job .research-box .submit {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#apply-job .research-box .submit .button {
+  padding: 8px 55px;
+  background: #2b69da;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+  #apply-job {
+    padding: 20px 5%;
+  }
+
+  #apply-job .research-box {
+    border: none;
+    padding: 0;
+  }
+  #apply-job .research-box .job-title h3 {
+    line-height: 1;
+  }
+
+  #apply-job .research-box .job-post {
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px 0;
+  }
+
+  #apply-job .research-box .job-description p {
+    width: 100%;
+  }
+
+  #apply-job .research-box .apply-online .aplly-box {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  #apply-job .research-box .apply-online .aplly-box .input {
+    width: 100%;
+  }
+
+  #apply-job .research-box .submit .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  #apply-job .research-box .ctc .ca-box {
+    flex-wrap: wrap;
+  }
+
+  #apply-job .research-box .ctc .ca-box .box {
+    align-items: center;
+  }
+
+  #apply-job .research-box .ctc .ca-box .box i {
+    font-size: 35px;
+  }
+}

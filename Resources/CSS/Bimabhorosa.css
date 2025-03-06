@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+img {
+  display: block;
+}
+
+.section1_container .section1 {
+  background-image: url("../../Assets/Images/ombsuBanner.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1_container .section1 .basnner {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.section1_container .section1 .basnner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section1_container .section1 .basnner .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  padding-right: 7%;
+  color: #fff;
+}
+
+.section1_container .section1 .basnner .text h1 {
+  font-size: 44px;
+  color: #fff;
+}
+
+.section1_container .section1 .basnner .text p {
+  font-size: 16px;
+}
+
+.section2_container .section2 {
+  padding: 10px 7%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section2_container .section2 h1 {
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 34px;
+  color: #2b69da;
+}
+
+.section2_container .section2 p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 786px) {
+  .section1_container .section1 .basnner .text h1 {
+    font-size: 30px;
+  }
+  .section2_container .section2 {
+    padding: 10px 5%;
+    margin-bottom: 45%;
+  }
+
+  .section2_container .section2 h1 {
+    font-size: 24px;
+  }
+
+  .section1_container .section1 .basnner {
+    height: 30vh;
+  }
+
+  .section2_container .section2,
+  .section3_container {
+    padding: 10px 5%;
+  }
+
+  .section1_container .section1 .basnner .text {
+    padding-right: 5%;
+  }
+}

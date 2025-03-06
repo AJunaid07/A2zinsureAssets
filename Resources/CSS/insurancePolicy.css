@@ -1,0 +1,407 @@
+.section1_container{
+    background: url('./../../Assets/Images/home2slide.png');
+    background-position: center;
+    background-size: cover;
+}
+.section1 {
+    display: flex;
+    align-items: center;
+    padding: 0% 7%;
+}
+
+.left_section1 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left_section1 h2 {
+    font-size: 58px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2b69da;
+}
+
+.left_section1 p {
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.right_section1 {
+    width: 30%;
+}
+
+.right_section1 img {
+    width: 100%;
+}
+
+/* ================================================ Section 2 =========================================== */
+.section2 {
+    padding: 3% 7%;
+}
+
+.section2_cards {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section_card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+    /* height: 320px;
+    max-height: 350px; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section_card:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section_card img {
+    width: 80px;
+}
+
+.section_card h4 {
+    font-family: 'Open Sans', sans;
+    font-size: 24px;
+    color: #2b69da;
+}
+
+.section_card p {
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+/* ============================================= Section 3 ================================================== */
+.section3_container {
+    background: url('./../../Assets/Images/home2slide.png');
+    background-position: center;
+    background-size: cover;
+}
+.section3 {
+    padding: 3% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section3 h2 {
+    font-size: 40px;
+}
+
+.section3 .line {
+    width: 150px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #2b69da;
+    margin-top: -10px;
+}
+
+.section3 p {
+    font-size: 18px;
+}
+
+.left_section3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right_section3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3_sides {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_section3 h3 {
+    color: #2b69da;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.address,
+.phone,
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.address p {
+    width: 70%;
+}
+.media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.media a{
+    transition: all 0.3s ease;
+}
+
+.media a:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.right_section3 form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 70%;
+}
+
+.right_section3 form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-bottom: 2px solid #2b69da;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: 'Poppins';
+    background: transparent;
+}
+
+.right_section3 form select {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2b69da;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: 'Poppins';
+    background: transparent;
+
+}
+
+textarea {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-bottom: #2b69da 2px solid;
+    border-radius: 0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    background: transparent;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 20px;
+    background: #2b69da;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 7px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+.button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.button:hover span {
+    transform: translateX(5em);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}
+
+
+
+
+
+
+/* ============================================= Section 4 ================================================== */
+.section4_container{
+    background: url('./../../Assets/Images/irda.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.section4 {
+    padding: 3% 7%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 15px;
+    font-family: 'Poppins';
+    margin-bottom: 10%;
+}
+
+.section4 h2 {
+    color: #3c2020;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section4 .line {
+    width: 200px;
+    height: 3px;
+    background-color: #2b69da;
+    border-radius: 10px;
+}
+
+.section4 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section4 ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section4 ul li img {
+    width: 30px;
+}
+
+
+
+
+/* ================================================================================================================================================ */
+@media screen and (max-width: 600px) {
+    .section1{
+        padding: 5%;
+        flex-direction: column;
+    }
+
+    .left_section1{
+        width: 100%;
+    }
+
+    .right_section1{
+        width: 100%;
+    }
+
+    .left_section1 h2 {
+        font-size: 34px;
+        font-family: 'Open Sans', sans-serif;
+        color: #2b69da;
+    }
+
+    .left_section1 p {
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    /* ================================================ Section 2 =========================================== */
+    .section2 {
+        padding: 5%;
+    }
+    .section2_cards{
+        flex-direction: column;
+    }
+
+    .section_card img {
+        width: 60px;
+    }
+
+    .section_card h4 {
+        font-family: 'Open Sans', sans;
+        font-size: 20px;
+        color: #2b69da;
+    }
+    /* ============================================= Section 3 ================================================== */
+    .section3{
+        padding: 5%;
+    }
+    .section3 h2 {
+        font-size: 30px;
+        align-self: flex-start;
+    }
+    .section3 .line {
+        align-self: flex-start;
+    }
+    .section3 p {
+        font-size: 16px;
+    }
+    .section3_sides{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left_section3{
+        width: 100%;
+    }
+    .right_section3{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .right_section3 form{
+        width: 100%;
+    }
+    /* ============================================= Section 4 ================================================== */
+    .section4{
+        padding: 5%;
+        margin-bottom: 45%;
+    }
+
+    .section4 h2 {
+        color: #3c2020;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .section4 ul li {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 16px;
+    }
+}

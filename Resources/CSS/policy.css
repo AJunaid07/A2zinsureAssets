@@ -1,0 +1,113 @@
+/* ---------------------------------- Section1 ----------------------------------------------------- */
+.section1_container {
+    font-family: 'Poppins';
+    background: linear-gradient(to right bottom, #000, transparent), url('./../../Assets/Images/policy.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.section1 {
+    padding: 3% 7%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 30vh;
+}
+
+.section1 h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.section1_box {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.section1_box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.section1_box ul li {
+    list-style-type: disc;
+    margin-left: 3%;
+}
+
+.section1_box ul li small span {
+    font-weight: 500;
+}
+
+/* -------------------------------- Section2 -------------------------------------------------- */
+.section2 {
+    padding: 3% 7%;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10%;
+}
+
+.section2 li {
+    list-style-type: none;
+}
+
+.section2 h2 {
+    color: #2b69da;
+    font-size: 34px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.section2 h3 {
+    color: #2b69da;
+}
+
+
+
+/* ---------------------------------------------- Responsive -------------------------------------------------- */
+@media screen and (max-width: 600px) {
+    /* ---------------------------------- Section1 ------------------------------------------------ */
+    .section1 {
+        padding: 2% 5%;
+        height: 30vh;
+    }
+
+    .section1 h2,
+    .section2 h2 {
+        font-size: 32px;
+    }
+
+    .section2 {
+        padding: 2% 5%;
+        margin-top: 5%;
+        padding-bottom: 45%;
+    }
+    .section2 li {
+        list-style-type: none;
+        width: 100%;
+    }
+    .section2 li a{
+        width: 100%;
+    }
+    .section2 h2 {
+        font-size: 20px;
+    }
+
+}

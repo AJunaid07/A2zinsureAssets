@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  user-select: none;
+  transition: 0.3s ease;
+}
+#internship {
+  margin-bottom: 10%;
+}
+
+#internship .section-1 {
+  height: 320px;
+  width: 100%;
+}
+
+#internship .section-1 .image {
+  width: 100%;
+  height: 100%;
+}
+
+#internship .section-1 .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#internship .section-2 {
+  padding: 0 7%;
+  margin: 20px 0;
+}
+
+#internship .section-2 .title .line {
+  width: 100px;
+  height: 4px;
+  background-color: #2b69da;
+  border-radius: 4px;
+}
+
+#internship .section-2 .title h1 {
+  font-size: 40px;
+  color: #4c474c;
+}
+
+#internship .section-2 .offer-cards {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#internship .section-2 .offer-cards .cards {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#internship .section-2 .offer-cards .cards:hover {
+  transform: translateY(-4px);
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+#internship .section-2 .offer-cards .cards .img {
+  position: relative;
+}
+
+#internship .section-2 .offer-cards .cards .img .card-title {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+#internship .section-2 .offer-cards .cards .img img {
+  width: 100%;
+  height: 200px;
+  /* object-fit: cover; */
+}
+
+#internship .section-2 .offer-cards .cards p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #4c474c;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+#internship .section-2 .offer-cards .cards .description {
+  padding: 10px;
+}
+
+#internship .section-3 {
+}
+
+#internship .section-3 .why-internship {
+  background-color: #214483;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 7%;
+}
+
+#internship .section-3 .why-internship .left {
+  width: 60%;
+}
+
+#internship .section-3 .why-internship .question {
+  margin-bottom: 20px;
+}
+
+#internship .section-3 .why-internship .question .line {
+  width: 100px;
+  height: 4px;
+  background-color: #2b69da;
+  border-radius: 4px;
+}
+
+#internship .section-3 .why-internship .question h2 {
+  font-size: 28px;
+  color: #ffffff;
+  text-align: left;
+}
+
+#internship .section-3 .why-internship .ans p {
+  font-size: 16px;
+  color: #b4b3b3;
+}
+
+#internship .section-3 .why-internship .right {
+  width: 40%;
+}
+
+#internship .section-3 .why-internship .right img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#internship .section-3 .about-stipented {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+  padding: 40px 7%;
+}
+
+#internship .section-3 .about-stipented .left {
+  width: 60%;
+}
+
+#internship .section-3 .about-stipented .left .about-title {
+  margin-bottom: 30px;
+}
+
+#internship .section-3 .about-stipented .left .about-title h2 {
+  color: #4c474c;
+  font-size: 40px;
+}
+
+#internship .section-3 .about-stipented .left .about-title .line {
+  width: 100px;
+  height: 4px;
+  background-color: #2b69da;
+  border-radius: 4px;
+}
+
+#internship .section-3 .about-stipented .right {
+  width: 40%;
+}
+
+#internship .section-3 .about-stipented .right img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#internship .section-3 .about-stipented ul li {
+  line-height: 1.2;
+  margin: 10px 0;
+  font-size: 16px;
+  opacity: 0.7;
+  display: flex;
+  gap: 10px;
+}
+
+#internship .section-4 {
+  padding: 40px 7%;
+  background-color: #dbdbdb;
+  margin-top: 10px;
+}
+
+#internship .section-4 .beaware .beaware-title {
+  margin-bottom: 20px;
+}
+
+#internship .section-4 .beaware .beaware-title .line {
+  width: 100px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #2b69da;
+}
+
+#internship .section-4 .beaware .beaware-title h2 {
+  font-size: 28px;
+  color: #4c474c;
+  text-align: left;
+}
+
+#internship .section-4 .beaware .desc h3 {
+  margin-bottom: 10px;
+  font-weight: 550;
+  font-size: 19px;
+  opacity: 0.8;
+}
+
+#internship .section-4 .beaware .desc ul li {
+  line-height: 1.2;
+  margin: 10px 0;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 786px) {
+  #internship .section-1 {
+    height: 200px;
+  }
+
+  #internship .section-2 {
+    padding: 0 5%;
+  }
+
+  #internship .section-2 .title h1 {
+    font-size: 28px;
+  }
+
+  #internship .section-2 .offer-cards {
+    display: -webkit-box;
+    overflow: scroll;
+  }
+
+  #internship .section-3 .why-internship {
+    flex-direction: column;
+    padding: 40px 5%;
+    margin-bottom: 10px;
+  }
+
+  #internship .section-3 .why-internship .left,
+  #internship .section-3 .why-internship .right {
+    width: 100%;
+  }
+
+  #internship .section-3 .why-internship .question h2,
+  #internship .section-4 .beaware .beaware-title h2 {
+    line-height: 1;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #internship .section-3 .about-stipented {
+    flex-direction: column;
+    padding: 10px 5%;
+  }
+
+  #internship .section-3 .about-stipented .right,
+  #internship .section-3 .about-stipented .left {
+    width: 100%;
+  }
+
+  #internship .section-3 .about-stipented .left .about-title h2 {
+    line-height: 1;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #internship .section-4 .beaware .desc h3 {
+    font-size: 16px;
+  }
+
+  #internship .section-4 {
+    margin-bottom: 200px;
+  }
+}

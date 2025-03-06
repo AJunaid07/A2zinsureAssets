@@ -1,0 +1,414 @@
+.section1 {
+    padding: 5% 7%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* height: 80vh; */
+}
+
+.section1_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.section1_left h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #2b69da;
+    font-size: 40px;
+}
+
+.section1_left h3 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    color: #3cda2b;
+}
+
+.started {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #3cda2b;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.section1_right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 7%;
+}
+
+.section1_right img {
+    display: block;
+}
+
+.timer {
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    width: 200px;
+}
+
+.section1_cards {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.card {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.card .box {
+    background-color: #a0c1ff;
+    border-radius: 50%;
+    /* width: 80px; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    width: 20px;
+}
+
+.card h4 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+/* ------------------------------------------ Section 2 ----------------------------------------- */
+.section2_container {
+    background: url('./../../Assets/Images/section5_background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.section2 {
+    padding: 5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section2 h2 {
+    color: #2b69da;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.section2 p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.section2 .line {
+    border-radius: 10px;
+    width: 300px;
+    height: 4px;
+    background: linear-gradient(to right, #3cda2b, #2b69da);
+}
+
+/* ---------------------------------------- Section 3 ------------------------------- */
+.section3_container {
+    background-color: #f9f9f9;
+}
+
+.section3 {
+    padding: 5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section3 h2 {
+    color: #2b69da;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 70%;
+}
+
+.line {
+    background-color: #3cda2b;
+    width: 300px;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.section3_cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+
+.section3_card img {
+    width: 80px;
+}
+
+.section3_card:first-child img {
+    width: 50px;
+}
+
+.section3_card {
+    width: calc(33.3% - 15px);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    font-family: 'Poppins';
+    background-color: #fff9f9;
+    height: 150px;
+    border: 1px solid #063da2;
+    transition: all 0.3s ease;
+}
+
+.section3_card p {
+    text-align: center;
+    color: #063da2;
+}
+
+.section3_card:hover {
+    transform: translateY(-10px);
+}
+
+/* -------------------------------------------- Section 4 ------------------------------------------------ */
+.section4 {
+    padding: 5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10%;
+}
+
+.section4 h2 {
+    color: #2b69da;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    width: 70%;
+    text-align: center;
+}
+
+.section4 p {
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.section4_cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left_card {
+    width: calc(33.3% - 20px);
+    font-family: 'Poppins';
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right {
+    width: 40%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.circle {
+    background-color: #2b69da;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_card h3 {
+    text-align: center;
+}
+
+/* -------------------------------------- Responsive ---------------------------------------------- */
+@media screen and (max-width: 600px) {
+    .section1 {
+        padding: 5%;
+        height: fit-content;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section1_left h2 {
+        font-size: 30px;
+    }
+
+    .section1_right {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .section1_left {
+        width: 100%;
+    }
+
+    .section1_left h3 {
+        font-family: 'Poppins';
+        font-size: 24px;
+        color: #3cda2b;
+    }
+
+    .section1_right img {
+        width: 100%;
+    }
+
+    .section1_cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .timer {
+        width: 110px !important;
+        left: 0;
+        top: 0;
+    }
+
+    .started {
+        font-size: 18px;
+    }
+
+    .card h4 {
+        color: #000;
+        font-size: 18px;
+        font-family: 'Poppins';
+    }
+
+    /* ============================================== Section 2 ============================================= */
+    .section2 {
+        padding: 5%;
+        align-items: flex-start;
+    }
+
+    .section2 h2 {
+        font-size: 30px;
+    }
+
+    .section2 .line {
+        width: 150px;
+    }
+
+    .section2 p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /* ---------------------------------------- Section 3 ------------------------------- */
+    .section3 {
+        padding: 5%;
+        align-items: flex-start;
+    }
+
+    .section3 h2 {
+        font-size: 20px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .line {
+        width: 170px;
+    }
+
+    .section3_cards {
+        padding: 0;
+    }
+
+    .section3_card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* -------------------------------------------- Section 4 ------------------------------------------------ */
+    .section4 {
+        padding: 5%;
+        align-items: flex-start;
+        margin-bottom: 35%;
+    }
+
+    .section4 h2 {
+        font-size: 22px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .section4 p {
+        font-size: 16px;
+    }
+
+    .section4 .line {
+        align-self: flex-start;
+    }
+
+    .section4_cards {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left_card {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
