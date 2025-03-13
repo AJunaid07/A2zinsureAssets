@@ -595,15 +595,15 @@
                 <p>Are you looking for?</p>
                 <div class="boxes">
                   <label for="property">
-                    <input type="radio" name="category" id="property" value="Property"  />
+                    <input type="radio" name="category" id="property" value="Property" />
                     <div>Property</div>
                   </label>
                   <label for="Investment">
-                    <input type="radio" name="category" id="Investment" value="Investment"/>
+                    <input type="radio" name="category" id="Investment" value="Investment" />
                     <div>Investment</div>
                   </label>
                   <label for="Insurance">
-                    <input type="radio" name="category" id="Insurance" value="Insurance"/>
+                    <input type="radio" name="category" id="Insurance" value="Insurance" />
                     <div>Insurance</div>
                   </label>
                 </div>
@@ -625,7 +625,7 @@
                 <p>Choose your product</p>
                 <div class="boxes">
                   <label for="lic">
-                    <input type="radio" name="product" id="lic"  />
+                    <input type="radio" name="product" id="lic" />
                     <div>LIC</div>
                   </label>
                   <label for="mf">
@@ -1021,8 +1021,8 @@
           <div class="irda_content">
             <p>Insurance Marketing Firm</p>
             <p>General & Life</p>
-            <p>IRDAI License No.</p>
-            <p>Valid upto</p>
+            <p>IRDAI License No. : MF08300120250762</p>
+            <p>Valid upto :  2028</p>
           </div>
         </div>
         <div class="principle">
@@ -1046,11 +1046,18 @@
         </div>
         <p>
           Copyright © A2Z Finserve Insurance Marketing LLP, All rights
-          Reserved.<a href="https://www.webappssoft.com/">Designed BY WASS</a>
+          Reserved.<a href="https://www.linkedin.com/in/0fficialjunaid/">Designed BY Muhammad Junaid Akhtar</a>
         </p>
       </div>
     </div>
   </div>
+  <!-- =========================================== Banner ======================================================== -->
+  <!--<div class="banner">-->
+  <!--  <div class="image_box">-->
+  <!--    <img src="./Assets/Images/banner.jpg" alt="banner" loading="lazy">-->
+  <!--    <img class="close_btn" src="./Assets/Graphics/cross_white.png" alt="">-->
+  <!--  </div>-->
+  <!--</div>-->
   <!-- <div class="mobileComing">
         <img src="./Assets/Images/logo.png" alt="">
         <h2>Sorry 😓, We are coming soon on mobile</h2>
@@ -1068,7 +1075,7 @@
     const selection = document.querySelector('input[name="selection"]:checked').value;
     const product = document.querySelector('input[name="product"]:checked').value;
 
-    
+
     console.log(name, phone, email, category, selection, product);
 
     return
@@ -1090,6 +1097,13 @@
 <script src="./Resources/Script/script.js"></script>
 <script>
   AOS.init();
+
+  const closeBtn = document.body.querySelector('.close_btn');
+  const banner = document.body.querySelector('.banner');
+
+  closeBtn.addEventListener('click', () => {
+    banner.classList.add('active');
+  });
 </script>
 
 </html>
