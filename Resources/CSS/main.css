@@ -90,7 +90,9 @@ header {
 }
 
 .left_nav a img {
-    width: 150px;
+    width: 150px; /* Adjust according to your design */
+    display: block;
+    margin: 0 auto;
 }
 .tagline {
     font-size: 10px;
