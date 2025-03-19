@@ -92,7 +92,13 @@ header {
 .left_nav a img {
     width: 150px;
 }
-
+.tagline {
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 3px;
+}
 .agentBtn {
     background-color: #2b69da;
     border-radius: 3px;
